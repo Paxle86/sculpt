@@ -15,6 +15,7 @@
 		/>
 		<link rel="stylesheet" href="css/plugins.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="manifest" href="/manifest.json" />
 	</head>
 	<body>
 		<!-- Preloader -->
@@ -46,39 +47,21 @@
 								<li><a class="active" href="index.html">Home Layout</a></li>
 							</ul>
 						</li>
-						<li><a href="about.html">About</a></li>
-						<li class="cappa-menu-sub">
-							<a href="#">Manicure &amp; Pedicures</a>
-							<ul>
-								<li><a href="rooms.html">Pedicures 1</a></li>
-								<li><a href="rooms2.html">Manicure 2</a></li>
-								<li><a href="rooms3.html">Manicure 3</a></li>
-								<li><a href="room-details.html">Manicure Details</a></li>
-							</ul>
-						</li>
-						<li><a href="restaurant.html">Spa Pedicures</a></li>
-						<li><a href="spa-wellness.html">Spa Wellness</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-						<li class="cappa-menu-sub">
-							<a href="#">News</a>
-							<ul>
-								<li><a href="news.html">News 1</a></li>
-								<li><a href="news2.html">News 2</a></li>
-								<li><a href="post.html">Single Post</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#gallery">Gallery</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
 				<div class="cappa-menu-footer">
 					<div class="reservation">
-						<a href="tel:8551004444">
+						<a href="tel:099486879">
 							<div
 								class="icon d-flex justify-content-center align-items-center"
 							>
 								<i class="flaticon-call"></i>
 							</div>
-							<div class="call">Reservation<br /><span>855 100 4444</span></div>
+							<div class="call">Reservation<br /><span>09 948 6879</span></div>
 						</a>
 					</div>
 				</div>
@@ -126,9 +109,7 @@
 									<h4>Luxury Nails Lounge</h4>
 									<h1>Enjoy a Luxury Experience</h1>
 									<div class="butn-light mt-30 mb-30">
-										<a href="#" data-scroll-nav="1"
-											><span>Pedicure & Natural Nail</span></a
-										>
+										<a href="#" data-scroll-nav="1"><span>Explore</span></a>
 									</div>
 								</div>
 							</div>
@@ -154,9 +135,7 @@
 									<h4>Unique Place to Relax & Enjoy</h4>
 									<h1>The Perfect Base For You</h1>
 									<div class="butn-light mt-30 mb-30">
-										<a href="#" data-scroll-nav="1"
-											><span>Pedicure & Natural Nail</span></a
-										>
+										<a href="#" data-scroll-nav="1"><span>Explore</span></a>
 									</div>
 								</div>
 							</div>
@@ -180,11 +159,9 @@
 										<i class="star-rating"></i>
 									</span>
 									<h4>The Ultimate Luxury Experience</h4>
-									<h1>Enjoy The Best Moments of Life</h1>
+									<h1>Enjoy The Best Services</h1>
 									<div class="butn-light mt-30 mb-30">
-										<a href="#" data-scroll-nav="1"
-											><span>Pedicure & Natural Nail</span></a
-										>
+										<a href="#" data-scroll-nav="1"><span>Explore</span></a>
 									</div>
 								</div>
 							</div>
@@ -193,6 +170,7 @@
 				</div>
 			</div>
 		</header>
+		<div id="about" style="margin-bottom: 100px"></div>
 		<!-- About -->
 		<section class="about section-padding">
 			<div class="container">
@@ -209,25 +187,19 @@
 							<i class="star-rating"></i>
 						</span>
 						<div class="section-subtitle">Sculpt Luxury Nails Lounge</div>
-						<div class="section-title">Enjoy a Luxury Experience</div>
+						<div class="section-title">About us</div>
 						<p>
-							Welcome to the best five-star luxury nails in Auckland. Perfect
-							elementum sesue the aucan vestibulum aliquam justo in sapien
-							rutrum volutpat. Donec in quis the pellentesque velit. Donec id
-							velit ac arcu posuere blane.
+							Welcome to the best five-star luxury nails in Auckland. We offer
+							highest quality products & services.
 						</p>
-						<p>
-							Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue
-							the aucan ligula. Orci varius natoque penatibus et magnis dis
-							parturient monte nascete ridiculus mus nellentesque habitant
-							morbine.
-						</p>
+						<p>Walk in wecome gift vouchers are available.</p>
+						<p>7 days open!</p>
 						<!-- call -->
 						<div class="reservations">
 							<div class="icon"><span class="flaticon-call"></span></div>
 							<div class="text">
 								<p>Reservation</p>
-								<a href="tel:855-100-4444">855 100 4444</a>
+								<a href="tel:099486879">09 948 6879</a>
 							</div>
 						</div>
 					</div>
@@ -241,12 +213,13 @@
 			</div>
 		</section>
 		<!-- Rooms -->
+		<div id="services" style="margin-bottom: 100px"></div>
 		<section class="rooms1 section-padding bg-cream" data-scroll-index="1">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 						<div class="section-subtitle">Sculpt Luxury Nails Lounge</div>
-						<div class="section-title">Pedicure & Natural Nail</div>
+						<div class="section-title">Services</div>
 					</div>
 				</div>
 				<div class="row">
@@ -255,28 +228,10 @@
 							<div class="position-re o-hidden">
 								<img src="img/rooms/1.jpg" alt="" />
 							</div>
-							<span class="category"><a href="rooms2.html">Book</a></span>
 							<div class="con">
-								<h6><a href="room-details.html">150$</a></h6>
-								<h5><a href="room-details.html">Manicure</a></h5>
+								<h6><a>From 16$</a></h6>
+								<h5><a>Waxing</a></h5>
 								<div class="line"></div>
-								<div class="row facilities">
-									<!-- <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div> -->
-									<div class="col col-md-5 text-right">
-										<div class="permalink">
-											<a href="room-details.html"
-												>Details <i class="ti-arrow-right"></i
-											></a>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -285,28 +240,10 @@
 							<div class="position-re o-hidden">
 								<img src="img/rooms/2.jpg" alt="" />
 							</div>
-							<span class="category"><a href="rooms2.html">Book</a></span>
 							<div class="con">
-								<h6><a href="room-details.html">200$</a></h6>
-								<h5><a href="room-details.html">Nail enhancements</a></h5>
+								<h6><a>Now 42$</a></h6>
+								<h5><a>Manicure</a></h5>
 								<div class="line"></div>
-								<div class="row facilities">
-									<!-- <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div> -->
-									<div class="col col-md-5 text-right">
-										<div class="permalink">
-											<a href="room-details.html"
-												>Details <i class="ti-arrow-right"></i
-											></a>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -315,404 +252,92 @@
 							<div class="position-re o-hidden">
 								<img src="img/rooms/3.jpg" alt="" />
 							</div>
-							<span class="category"><a href="rooms2.html">Book</a></span>
 							<div class="con">
-								<h6><a href="room-details.html">250$</a></h6>
-								<h5><a href="room-details.html">Pedicure</a></h5>
+								<h6><a>Now 60$</a></h6>
+								<h5><a>Spa Pedicure</a></h5>
 								<div class="line"></div>
-								<div class="row facilities">
-									<!-- <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div> -->
-									<div class="col col-md-5 text-right">
-										<div class="permalink">
-											<a href="room-details.html"
-												>Details <i class="ti-arrow-right"></i
-											></a>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+				<div class="row">
 					<div class="col-md-6">
 						<div class="item">
 							<div class="position-re o-hidden">
 								<img src="img/rooms/4.jpg" alt="" />
 							</div>
-							<span class="category"><a href="rooms2.html">Book</a></span>
 							<div class="con">
-								<h6><a href="room-details.html">300$</a></h6>
-								<h5><a href="room-details.html">Dipping powder</a></h5>
+								<h6><a>From 15$</a></h6>
+								<h5><a>Gel Polish Nails</a></h5>
 								<div class="line"></div>
-								<div class="row facilities">
-									<!-- <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div> -->
-									<div class="col col-md-5 text-right">
-										<div class="permalink">
-											<a href="room-details.html"
-												>Details <i class="ti-arrow-right"></i
-											></a>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="item">
 							<div class="position-re o-hidden">
+								<img src="img/rooms/5.jpg" alt="" />
+							</div>
+							<div class="con">
+								<h6><a>From 53$</a></h6>
+								<h5><a>Artificial Acrylic</a></h5>
+								<div class="line"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<div class="item">
+							<div class="position-re o-hidden">
+								<img src="img/rooms/6.jpg" alt="" />
+							</div>
+							<div class="con">
+								<h6><a>From 16$</a></h6>
+								<h5><a>Artificial Crystal</a></h5>
+								<div class="line"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="item">
+							<div class="position-re o-hidden">
 								<img src="img/rooms/7.jpg" alt="" />
 							</div>
-							<span class="category"><a href="rooms2.html">Book</a></span>
 							<div class="con">
-								<h6><a href="room-details.html">150$</a></h6>
-								<h5><a href="room-details.html">Add on</a></h5>
+								<h6><a>From 53$</a></h6>
+								<h5><a>Infill</a></h5>
 								<div class="line"></div>
-								<div class="row facilities">
-									<!-- <div class="col col-md-7">
-                                    <ul>
-                                        <li><i class="flaticon-bed"></i></li>
-                                        <li><i class="flaticon-bath"></i></li>
-                                        <li><i class="flaticon-breakfast"></i></li>
-                                        <li><i class="flaticon-towel"></i></li>
-                                    </ul>
-                                </div> -->
-									<div class="col col-md-5 text-right">
-										<div class="permalink">
-											<a href="room-details.html"
-												>Details <i class="ti-arrow-right"></i
-											></a>
-										</div>
-									</div>
-								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="item">
+							<div class="position-re o-hidden">
+								<img src="img/rooms/8.jpg" alt="" />
+							</div>
+							<div class="con">
+								<h6><a>From 70$</a></h6>
+								<h5><a>Dipping Powder</a></h5>
+								<div class="line"></div>
+							</div>
+						</div>
+					</div>
+                    <div class="col-md-3">
+						<div class="item">
+							<div class="position-re o-hidden">
+								<img src="img/rooms/9.jpg" alt="" />
+							</div>
+							<div class="con">
+								<h6><a>From 60$</a></h6>
+								<h5><a>Artificial Gel</a></h5>
+								<div class="line"></div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- Pricing -->
-		<section class="pricing section-padding bg-black">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="section-subtitle"><span>Best Prices</span></div>
-						<div class="section-title"><span>Extra Services</span></div>
-						<p class="color-2">
-							The best prices for your nestibulum. The utanislen quam nestibulum
-							ac quame odion elementum sceisue the aucan.
-						</p>
-						<p class="color-2">
-							Orci varius natoque penatibus et magnis disney parturient monte
-							nascete ridiculus mus nellen etesque habitant morbine.
-						</p>
-						<div class="reservations mb-30">
-							<div class="icon"><span class="flaticon-call"></span></div>
-							<div class="text">
-								<p class="color-2">For information</p>
-								<a href="tel:855-100-4444">855 100 4444</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-8">
-						<div class="owl-carousel owl-theme">
-							<div class="pricing-card">
-								<img src="img/pricing/1.jpg" alt="" />
-								<div class="desc">
-									<div class="name">Buffet included</div>
-									<div class="amount">$50<span>/ ser</span></div>
-									<ul class="list-unstyled list">
-										<li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-										<li>
-											<i class="ti-check"></i> Orci miss natoque vasa ince
-										</li>
-										<li>
-											<i class="ti-close unavailable"></i>Clean sorem ipsum
-											morbin
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="pricing-card">
-								<img src="img/pricing/2.jpg" alt="" />
-								<div class="desc">
-									<div class="name">Drinks included</div>
-									<div class="amount">$30<span>/ ser</span></div>
-									<ul class="list-unstyled list">
-										<li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-										<li>
-											<i class="ti-check"></i> Orci miss natoque vasa ince
-										</li>
-										<li>
-											<i class="ti-close unavailable"></i>Clean sorem ipsum
-											morbin
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="pricing-card">
-								<img src="img/pricing/3.jpg" alt="" />
-								<div class="desc">
-									<div class="name">Drinks included</div>
-									<div class="amount">$30<span>/ daily</span></div>
-									<ul class="list-unstyled list">
-										<li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-										<li>
-											<i class="ti-check"></i> Orci miss natoque vasa ince
-										</li>
-										<li>
-											<i class="ti-close unavailable"></i>Clean sorem ipsum
-											morbin
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div class="pricing-card">
-								<img src="img/pricing/4.jpg" alt="" />
-								<div class="desc">
-									<div class="name">Drinks included</div>
-									<div class="amount">$15<span>/ daily</span></div>
-									<ul class="list-unstyled list">
-										<li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-										<li>
-											<i class="ti-check"></i> Orci miss natoque vasa ince
-										</li>
-										<li>
-											<i class="ti-close unavailable"></i>Clean sorem ipsum
-											morbin
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Promo Video -->
-		<section
-			class="video-wrapper video section-padding bg-img bg-fixed"
-			data-overlay-dark="6"
-			data-background="img/slider/2.jpg"
-		>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 offset-md-2 text-center">
-						<span
-							><i class="star-rating"></i><i class="star-rating"></i
-							><i class="star-rating"></i><i class="star-rating"></i
-							><i class="star-rating"></i
-						></span>
-						<div class="section-subtitle">
-							<span>Sculpt Luxury Nails Lounge</span>
-						</div>
-						<div class="section-title"><span>Promotional Video</span></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="text-center col-md-12">
-						<a class="vid" href="https://youtu.be/7BGNAGahig8">
-							<div class="vid-butn">
-								<span class="icon">
-									<i class="ti-control-play"></i>
-								</span>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Facilties -->
-		<section class="facilties section-padding">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-subtitle">Our Services</div>
-						<div class="section-title">Nails Facilities</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4">
-						<div
-							class="single-facility animate-box"
-							data-animate-effect="fadeInUp"
-						>
-							<span class="flaticon-world"></span>
-							<h5>Buffet</h5>
-							<p>
-								We’ll pick up from airport while you comfy on your ride, mus
-								nellentesque habitant.
-							</p>
-							<div class="facility-shape">
-								<span class="flaticon-world"></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div
-							class="single-facility animate-box"
-							data-animate-effect="fadeInUp"
-						>
-							<span class="flaticon-car"></span>
-							<h5>Parking Space</h5>
-							<p>
-								Fusce tincidunt nis ace park norttito sit amet space, mus
-								nellentesque habitant.
-							</p>
-							<div class="facility-shape">
-								<span class="flaticon-car"></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div
-							class="single-facility animate-box"
-							data-animate-effect="fadeInUp"
-						>
-							<span class="flaticon-bed"></span>
-							<h5>Nails Service</h5>
-							<p>
-								Room tincidunt nis ace park norttito sit amet space, mus
-								nellentesque habitant.
-							</p>
-							<div class="facility-shape">
-								<span class="flaticon-bed"></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div
-							class="single-facility animate-box"
-							data-animate-effect="fadeInUp"
-						>
-							<span class="flaticon-swimming"></span>
-							<h5>Spa</h5>
-							<p>
-								Swimming pool tincidunt nise ace park norttito sit space, mus
-								nellentesque habitant.
-							</p>
-							<div class="facility-shape">
-								<span class="flaticon-swimming"></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div
-							class="single-facility animate-box"
-							data-animate-effect="fadeInUp"
-						>
-							<span class="flaticon-wifi"></span>
-							<h5>Free wifi</h5>
-							<p>
-								Wifi tincidunt nis ace park norttito sit amet space, mus
-								nellentesque habitant.
-							</p>
-							<div class="facility-shape">
-								<span class="flaticon-wifi"></span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div
-							class="single-facility animate-box"
-							data-animate-effect="fadeInUp"
-						>
-							<span class="flaticon-breakfast"></span>
-							<h5>Drinks</h5>
-							<p>
-								Eat tincidunt nisa ace park norttito sit amet space, mus
-								nellentesque habitant
-							</p>
-							<div class="facility-shape">
-								<span class="flaticon-breakfast"></span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Booking Search -->
-		<!-- <section class="section-padding bg-cream">
-        <div class="container">
-            <div class="section-subtitle">Check Now</div>
-            <div class="section-title">Search Rooms</div>
-            <div class="booking-inner clearfix">
-                <form class="form1 clearfix">
-                    <div class="col1 c1">
-                        <div class="input1_wrapper">
-                            <label>Check in</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker" placeholder="Check in">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col1 c2">
-                        <div class="input1_wrapper">
-                            <label>Check out</label>
-                            <div class="input1_inner">
-                                <input type="text" class="form-control input datepicker" placeholder="Check out">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c3">
-                        <div class="select1_wrapper">
-                            <label>Adults</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Adult</option>
-                                    <option value="2">2 Adults</option>
-                                    <option value="3">3 Adults</option>
-                                    <option value="4">4 Adults</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c4">
-                        <div class="select1_wrapper">
-                            <label>Children</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">Children</option>
-                                    <option value="1">1 Child</option>
-                                    <option value="2">2 Children</option>
-                                    <option value="3">3 Children</option>
-                                    <option value="4">4 Children</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col2 c5">
-                        <div class="select1_wrapper">
-                            <label>Rooms</label>
-                            <div class="select1_inner">
-                                <select class="select2 select" style="width: 100%">
-                                    <option value="1">1 Room</option>
-                                    <option value="2">2 Rooms</option>
-                                    <option value="3">3 Rooms</option>
-                                    <option value="4">4 Rooms</option>
-                                </select>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col3 c6">
-                        <button type="submit" class="btn-form1-submit">Check Now</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section> -->
 		<!-- Testiominals -->
 		<section class="testimonials">
 			<div
@@ -733,11 +358,13 @@
 									<div class="item">
 										<span class="quote"><img src="img/quot.png" alt="" /></span>
 										<p>
-											Hotel dapibus asue metus the nec feusiate eraten miss
-											hendreri net ve ante the lemon sanleo nectan feugiat erat
-											hendrerit necuis ve ante otel inilla duiman at finibus
-											viverra neca the sene on satien the miss drana inc fermen
-											norttito sit space, mus nellentesque habitan.
+											AMAZING, AMAZING did I say amazing experience we came with
+											four people for a bridal party they completely accommodate
+											us the atmosphere as soon as you walk in is like an
+											amazing mini getaway so clean and beautiful and
+											comfortable all the staff were so incredible smiled and
+											laughed the entire time.. EXCEPTIONAL.. thank you, thank
+											you!
 										</p>
 										<div class="info">
 											<div class="author-img">
@@ -757,11 +384,11 @@
 									<div class="item">
 										<span class="quote"><img src="img/quot.png" alt="" /></span>
 										<p>
-											Hotel dapibus asue metus the nec feusiate eraten miss
-											hendreri net ve ante the lemon sanleo nectan feugiat erat
-											hendrerit necuis ve ante otel inilla duiman at finibus
-											viverra neca the sene on satien the miss drana inc fermen
-											norttito sit space, mus nellentesque habitan.
+											I love going here. They treat you like family, and they
+											love you like family! No other place in Auckland I would
+											trust with my nails! They always knows how to take my
+											cares away - the best part of a signature pedicure is the
+											massage and they are hands down the best.
 										</p>
 										<div class="info">
 											<div class="author-img">
@@ -773,7 +400,7 @@
 													><i class="star-rating"></i><i class="star-rating"></i
 													><i class="star-rating"></i
 												></span>
-												<h6>Nolan White</h6>
+												<h6>Mary White</h6>
 												<span>Guest review</span>
 											</div>
 										</div>
@@ -781,11 +408,13 @@
 									<div class="item">
 										<span class="quote"><img src="img/quot.png" alt="" /></span>
 										<p>
-											Hotel dapibus asue metus the nec feusiate eraten miss
-											hendreri net ve ante the lemon sanleo nectan feugiat erat
-											hendrerit necuis ve ante otel inilla duiman at finibus
-											viverra neca the sene on satien the miss drana inc fermen
-											norttito sit space, mus nellentesque habitan.
+											I always love coming in to get my nails done when I can!
+											Always worth the two hour drive to get my nails
+											beautified! I am 100% satisfied with my visit yesterday!
+											They are absolutely amazing and helped me find that
+											perfect color I was looking for! I had a photo shoot last
+											night that I wanted me nails to look perfect for and they
+											truly did an amazing job!
 										</p>
 										<div class="info">
 											<div class="author-img">
@@ -810,6 +439,8 @@
 			</div>
 		</section>
 		<!-- Services -->
+        <div id="gallery" style="margin-bottom: 100px"></div>
+
 		<section class="services section-padding">
 			<div class="container">
 				<div class="row">
@@ -818,9 +449,7 @@
 						data-animate-effect="fadeInLeft"
 					>
 						<div class="img left">
-							<a href="restaurant.html"
-								><img src="img/restaurant/1.jpg" alt=""
-							/></a>
+							<a><img src="img/restaurant/1.jpg" alt="" /></a>
 						</div>
 					</div>
 					<div
@@ -834,14 +463,11 @@
 								</div>
 								<h4>Manicure</h4>
 								<p>
-									Restaurant inilla duiman at elit finibus viverra nec a lacus
-									themo the nesudea seneoice misuscipit non sagie the fermen
-									ziverra tristiue duru the ivite dianne onen nivami acsestion
-									augue artine.
+									A manicure treatment is not only a treatment for natural nails
+									but also for the hands. A manicure consists of filing, shaping
+									of the nail, cuticle treatment, massaging of hands and
+									application of nail polish.
 								</p>
-								<div class="butn-dark">
-									<a href="restaurant.html"><span>Learn More</span></a>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -856,16 +482,18 @@
 								<div class="info">
 									<h6>Experiences</h6>
 								</div>
-								<h4>Spa Manicures</h4>
+								<h4>Spa Pedicure</h4>
 								<p>
-									Spa center inilla duiman at elit finibus viverra nec a lacus
-									themo the nesudea seneoice misuscipit non sagie the fermen
-									ziverra tristiue duru the ivite dianne onen nivami acsestion
-									augue artine.
+									A pedicure is a way to improve appearance of the feet and
+									nails. It provides a similar service to a manicure.
+									Additionally, our spa pedicure is the ultimate in full body
+									relaxation. Your feet are soaked in a whirlpool while you
+									recline in a massage chair which massages your entire body.
+									Leg care below the knee has become a common and now expected
+									service which includes removal of dead skin cells on the
+									bottom of feet, exfoliation, leg massage with moisturising
+									cream and application of nail polish.
 								</p>
-								<div class="butn-dark">
-									<a href="spa-wellness.html"><span>Learn More</span></a>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -874,7 +502,7 @@
 						data-animate-effect="fadeInRight"
 					>
 						<div class="img">
-							<a href="spa-wellness.html"><img src="img/spa/3.jpg" alt="" /></a>
+							<a><img src="img/spa/2.jpg" alt="" /></a>
 						</div>
 					</div>
 				</div>
@@ -884,7 +512,7 @@
 						data-animate-effect="fadeInLeft"
 					>
 						<div class="img left">
-							<a href="spa-wellness.html"><img src="img/spa/2.jpg" alt="" /></a>
+							<a><img src="img/rooms/4.jpg" alt="" /></a>
 						</div>
 					</div>
 					<div
@@ -896,16 +524,10 @@
 								<div class="info">
 									<h6>Modern</h6>
 								</div>
-								<h4>Shellac Gel Manicures</h4>
+								<h4>Gel Polish Nails</h4>
 								<p>
-									Restaurant inilla duiman at elit finibus viverra nec a lacus
-									themo the nesudea seneoice misuscipit non sagie the fermen
-									ziverra tristiue duru the ivite dianne onen nivami acsestion
-									augue artine.
+									CND Shellac is for people who want to maintain natural nails. The formulation looks good from day 1 to day 14, but does not appear to damage nail beds. The product is thin and strong enough to be applied similarly to nail polish, but it is cured in a way that gives it great flexibility and durability. It also has the incredible shine associated only with gel nails.
 								</p>
-								<div class="butn-dark">
-									<a href="spa-wellness.html"><span>Learn More</span></a>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -920,16 +542,10 @@
 								<div class="info">
 									<h6>Experiences</h6>
 								</div>
-								<h4>Dip Powder</h4>
+								<h4>Dipping Powder</h4>
 								<p>
-									The health club & pool at elit finibus viverra nec a lacus
-									themo the nesudea seneoice misuscipit non sagie the fermen
-									ziverra tristiue duru the ivite dianne onen nivami acsestion
-									augue artine.
+									Dip powder nail are somewhere between a regular mani and a fake nail. Instead of using UV rays to seal in your polish, the color comes from a pigmented powder. Between base coats and a sealant, you dip your nails into a little jar of your chosen color ( SNS, Prodip are the two most popular and vetted manufacturers) for a manicure that could last three to four weeks.
 								</p>
-								<div class="butn-dark">
-									<a href="spa-wellness.html"><span>Learn More</span></a>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -938,256 +554,14 @@
 						data-animate-effect="fadeInRight"
 					>
 						<div class="img">
-							<a href="spa-wellness.html"><img src="img/spa/1.jpg" alt="" /></a>
+							<a><img src="img/rooms/8.jpg" alt="" /></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- News -->
-		<section class="news section-padding bg-black">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="section-subtitle"><span>Nails Blog</span></div>
-						<div class="section-title"><span>Our News</span></div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="owl-carousel owl-theme">
-							<div class="item">
-								<div class="position-re o-hidden">
-									<img src="img/news/1.jpg" alt="" />
-									<div class="date">
-										<a href="post.html"> <span>Dec</span> <i>02</i> </a>
-									</div>
-								</div>
-								<div class="con">
-									<span class="category">
-										<a href="news.html">Dip Powder</a>
-									</span>
-									<h5><a href="post.html">Historic Dip Powder</a></h5>
-								</div>
-							</div>
-							<div class="item">
-								<div class="position-re o-hidden">
-									<img src="img/news/2.jpg" alt="" />
-									<div class="date">
-										<a href="post.html"> <span>Dec</span> <i>04</i> </a>
-									</div>
-								</div>
-								<div class="con">
-									<span class="category">
-										<a href="news.html">Spa Manicures</a>
-									</span>
-									<h5>
-										<a href="post.html">Benefits of Spa Manicures Treatments</a>
-									</h5>
-								</div>
-							</div>
-							<div class="item">
-								<div class="position-re o-hidden">
-									<img src="img/news/3.jpg" alt="" />
-									<div class="date">
-										<a href="post.html"> <span>Dec</span> <i>06</i> </a>
-									</div>
-								</div>
-								<div class="con">
-									<span class="category">
-										<a href="news.html">Manicure</a>
-									</span>
-									<h5><a href="post.html">Manicure Collections</a></h5>
-								</div>
-							</div>
-							<div class="item">
-								<div class="position-re o-hidden">
-									<img src="img/news/4.jpg" alt="" />
-									<div class="date">
-										<a href="post.html"> <span>Dec</span> <i>08</i> </a>
-									</div>
-								</div>
-								<div class="con">
-									<span class="category">
-										<a href="news.html">Shellac Gel Manicures</a>
-									</span>
-									<h5>
-										<a href="post.html"
-											>Shellac Gel Manicures with Sculpt nails</a
-										>
-									</h5>
-								</div>
-							</div>
+        <div id="contact" style="margin-bottom: 100px"></div>
 
-							<div class="item">
-								<div class="position-re o-hidden">
-									<img src="img/news/6.jpg" alt="" />
-									<div class="date">
-										<a href="post.html"> <span>Dec</span> <i>08</i> </a>
-									</div>
-								</div>
-								<div class="con">
-									<span class="category">
-										<a href="news.html">Acrylic Nails</a>
-									</span>
-									<h5><a href="post.html">Retro Lighting Acrylic Nails</a></h5>
-								</div>
-							</div>
-							<div class="item">
-								<div class="position-re o-hidden">
-									<img src="img/news/5.jpg" alt="" />
-									<div class="date">
-										<a href="post.html"> <span>Dec</span> <i>08</i> </a>
-									</div>
-								</div>
-								<div class="con">
-									<span class="category">
-										<a href="news.html">Pedicures</a>
-									</span>
-									<h5>
-										<a href="post.html"
-											>Benefits of Pedicures for Your Health</a
-										>
-									</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Reservation & Booking Form -->
-		<section class="testimonials">
-			<div
-				class="background bg-img bg-fixed section-padding pb-0"
-				data-background="img/slider/2.jpg"
-				data-overlay-dark="2"
-			>
-				<div class="container">
-					<div class="row">
-						<!-- Reservation -->
-						<div class="col-md-5 mb-30 mt-30">
-							<p>
-								<i class="star-rating"></i><i class="star-rating"></i
-								><i class="star-rating"></i><i class="star-rating"></i
-								><i class="star-rating"></i>
-							</p>
-							<h5>
-								Each of our guest rooms feature a private bath, wi-fi, cable
-								television and include full breakfast.
-							</h5>
-							<div class="reservations mb-30">
-								<div class="icon color-1">
-									<span class="flaticon-call"></span>
-								</div>
-								<div class="text">
-									<p class="color-1">Reservation</p>
-									<a class="color-1" href="tel:855-100-4444">855 100 4444</a>
-								</div>
-							</div>
-							<p>
-								<i class="ti-check"></i><small>Call us, it's toll-free.</small>
-							</p>
-						</div>
-						<!-- Booking From -->
-						<div class="col-md-5 offset-md-2">
-							<div class="booking-box">
-								<div class="head-box">
-									<h6>Manicure & Pedicures</h6>
-									<h4>Nails Booking Form</h4>
-								</div>
-								<div class="booking-inner clearfix">
-									<form action="rooms2.html" class="form1 clearfix">
-										<div class="row">
-											<div class="col-md-12">
-												<div class="input1_wrapper">
-													<label>Check in</label>
-													<div class="input1_inner">
-														<input
-															type="text"
-															class="form-control input datepicker"
-															placeholder="Check in"
-														/>
-													</div>
-												</div>
-											</div>
-											<!-- <div class="col-md-12">
-                                            <div class="input1_wrapper">
-                                                <label>Check out</label>
-                                                <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker" placeholder="Check out">
-                                                </div>
-                                            </div>
-                                        </div> -->
-											<div class="col-md-6">
-												<div class="select1_wrapper">
-													<label>Adults</label>
-													<div class="select1_inner">
-														<select class="select2 select" style="width: 100%">
-															<option value="0">Adults</option>
-															<option value="1">1</option>
-															<option value="2">2</option>
-															<option value="3">3</option>
-															<option value="4">4</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-6">
-												<div class="select1_wrapper">
-													<label>Children</label>
-													<div class="select1_inner">
-														<select class="select2 select" style="width: 100%">
-															<option value="0">Children</option>
-															<option value="1">1</option>
-															<option value="2">2</option>
-															<option value="3">3</option>
-															<option value="4">4</option>
-														</select>
-													</div>
-												</div>
-											</div>
-											<div class="col-md-12">
-												<button type="submit" class="btn-form1-submit mt-15">
-													Check Availability
-												</button>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- Clients -->
-		<section class="clients">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-7 owl-carousel owl-theme">
-						<div class="clients-logo">
-							<a href="#0"><img src="img/clients/1.png" alt="" /></a>
-						</div>
-						<div class="clients-logo">
-							<a href="#0"><img src="img/clients/2.png" alt="" /></a>
-						</div>
-						<div class="clients-logo">
-							<a href="#0"><img src="img/clients/3.png" alt="" /></a>
-						</div>
-						<div class="clients-logo">
-							<a href="#0"><img src="img/clients/4.png" alt="" /></a>
-						</div>
-						<div class="clients-logo">
-							<a href="#0"><img src="img/clients/5.png" alt="" /></a>
-						</div>
-						<div class="clients-logo">
-							<a href="#0"><img src="img/clients/6.png" alt="" /></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="footer-top">
@@ -1198,15 +572,12 @@
 								<h3 class="footer-title">About Sculpt</h3>
 								<p class="footer-about-text">
 									Welcome to the best five-star deluxe nails lounge in Auckland.
-									Hotel elementum sesue the aucan vestibulum aliquam justo in
-									sapien rutrum volutpat.
 								</p>
 
 								<div class="footer-language">
 									<i class="lni ti-world"></i>
 									<select onchange="location = this.value;">
 										<option value="#0">English</option>
-										<option value="#0">German</option>
 									</select>
 								</div>
 							</div>
@@ -1216,11 +587,10 @@
 								<h3 class="footer-title">Explore</h3>
 								<ul class="footer-explore-list list-unstyled">
 									<li><a href="index.html">Home</a></li>
-									<li><a href="rooms.html">Manicure</a></li>
-									<li><a href="restaurant.html">Spa Manicures</a></li>
-									<li><a href="spa-wellness.html">Dip Powder</a></li>
-									<li><a href="about.html">About Hotel</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#services">Services</a></li>
+									<li><a href="#gallery">Gallery</a></li>
+									<li><a href="#contact">Contact</a></li>
 								</ul>
 							</div>
 						</div>
@@ -1228,13 +598,18 @@
 							<div class="footer-column footer-contact">
 								<h3 class="footer-title">Contact</h3>
 								<p class="footer-contact-text">
-									1616 Broadway , Auckland 10001<br />New Zealand
+									Sylvia Park Galleria
+									<br />
+									Shop 207, Level 1, 286 Mount Wellington Highway <br />
+									Mount Wellington, Auckland 1060
 								</p>
 								<div class="footer-contact-info">
 									<p class="footer-contact-phone">
-										<span class="flaticon-call"></span> 855 100 4444
+										<span class="flaticon-call"></span>09 948 6879
 									</p>
-									<p class="footer-contact-mail">info@luxurynails.com</p>
+									<p class="footer-contact-mail">nmk@sculptnails.co.nz</p>
+									<br />
+									<p class="footer-contact-mail">sp@sculptnails.co.nz</p>
 								</div>
 								<div class="footer-about-social-list">
 									<a href="#"><i class="ti-instagram"></i></a>
@@ -1254,7 +629,7 @@
 						<div class="col-md-12">
 							<div class="footer-bottom-inner">
 								<p class="footer-bottom-copy-right">
-									© Copyright 2022 by <a href="#">Pax Le</a>
+									© Copyright 2022 by <a href="#">Sculpt Nails</a>
 								</p>
 							</div>
 						</div>
@@ -1281,13 +656,5 @@
 		<script src="js/datepicker.js"></script>
 		<script src="js/smooth-scroll.min.js"></script>
 		<script src="js/custom.js"></script>
-		<script>
-				var anchors = document.getElementsByTagName('a');
-
-				for (var i = 0; i < anchors.length; i++) {
-					anchors[i].href =
-						"https://paxle86.github.io/sculpt-nails/";
-				}
-		</script>
 	</body>
 </html>

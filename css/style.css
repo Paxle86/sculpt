@@ -3096,6 +3096,9 @@ hr {
 .restaurant-menu .tabs-icon .item.active .icon {
     color: #aa8453;
 }
+.services-text {
+    color: #aa8453 !important;
+}
 .restaurant-menu .restaurant-menu-content .cont {
     display: none;
 }
