@@ -1,6 +1,6 @@
 {
-  "name": "Sculpt nails",
-  "short_name": "Sculpt",
+  "name": "Luxury Nails",
+  "short_name": "Luxury Nails",
   "icons": [
     {
       "src": "/src/img/icon/app-icon-48x48.png",
@@ -44,7 +44,7 @@
   "orientation": "portrait-primary",
   "background_color": "#fff",
   "theme_color": "#CBA468",
-  "description": "Sculpt luxury nails lounge",
+  "description": "Luxury nails",
   "dir": "ltr",
   "lang": "en-US"
 }
